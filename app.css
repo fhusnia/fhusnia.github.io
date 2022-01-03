@@ -1,0 +1,274 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+canvas.particles-js-canvas-el{
+	position:absolute;
+	top:0;
+}
+
+#particles-js{
+	width:100%;
+	height:100vh;
+	background:white;
+	background-image:url('picture/img2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+}
+.navbar-header h4{
+	color:#e9eaeb;
+}
+.navbar li{
+	padding:6px;
+}
+.navbar-nav a{
+	color:#e9eaeb;
+}
+.navbar{
+	padding:12px;
+	position: fixed;
+	width: 100%;
+	z-index: 999999;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+
+.header{
+	width: 100%;
+	height:320px;
+}
+.header h1{
+	letter-spacing:80px;
+	overflow:hidden;
+	white-space:no-wrap;
+	font-size:40px;
+	color:#e9eaeb;
+}
+
+.wrapper{
+	display:inline-flex;
+}
+.wrapper .statictxt{
+	height:60px;
+	color:#e9eaeb;
+	font-size:20px;
+	font-weight:400;
+	display:flex;
+	align-items: flex-end;
+}
+.wrapper{
+	width:800px;
+	height:100px;
+	display:flex;
+	justify-content:flex-end;
+	align-items: flex-start;
+}
+.wrapper .dynamictxts{
+	margin-left:15px;
+	height:90px;
+	line-height:90px;
+	overflow:hidden;
+
+}
+.dynamictxts{
+	height:30vh;
+}
+.dynamictxts li{
+	color: #e9eaeb;
+	position:relative;
+	top:0;
+	font-size:25px;
+	animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+	100%{
+		top: -360px;
+	}
+}
+.dynamictxts li span{
+	position:relative;
+	background-color: crismon;
+
+}
+
+.dynamictxts li span::after{
+	content:"";
+	position:absolute;
+	left:0;
+	height:10vh;
+	width:100%;
+	background:black;
+	border-left:2px solid #e9eaeb;
+	animation: typing 1.5s steps(15) infinite;
+}
+@keyframes typing{
+	50%{
+		left:100%;
+		margin:0-35px 0 35px;
+	}
+	50%{
+		left:100%;
+		margin:0-35px 0 35px;
+	}
+}
+
+.aboutprogram{
+	height:100vh;
+	background-color: black;
+}
+.aboutleft{
+	height:700px;
+}
+.text li{
+	padding-bottom:12px;
+}
+.text a{
+	padding:6px;
+	font-size:20px;
+}
+#two{
+	padding:2px;
+	border-bottom:1px dashed black;
+}
+.aboutskills{
+	width: 100% ;
+	height:700px;
+}
+.aboutright{
+	width:100%;
+	height:700px;
+	background-image:url("picture/img3.jpg");
+	background-size:cover;
+}
+
+.about3D{
+	width:100%;
+	height:700px;
+	background: black;
+}
+ 
+  .page-wrap {
+
+	background-color: #fff;
+	width: 60%;
+	margin: 0 auto;
+  }
+  
+  .skill-bar-container {
+	  position: relative;
+	  width: 100%;
+	  background-color: #f0f0f1;
+	  margin-bottom: 4em;
+  }			
+.level1 { width: 90%; background-color:	black;}
+.level2 { width: 90%; background-color: black}
+.level3 { width: 85%; background-color: black}
+.level4 { width: 90%; background-color: black}
+.level5 { width: 100%; background-color: black}
+
+
+
+ .skill-bar {
+		  display: block;
+		  height: 4px;
+ }
+ .skill-name {
+	 position: absolute;
+     bottom: 10px;
+	 left: 2px;
+	 color: #333;
+		
+ }
+.skill-percent {
+		position: absolute;
+		bottom:10px;
+		right: 10px;
+		color: #333; 
+ }
+
+ .contact-head h2{
+	letter-spacing:12px;
+ }
+#icon{
+	width: 40px;
+	height: 50px;
+	border-right: 1px solid black;
+	font-size: 24px;
+	position:relative;
+	right:20px;
+
+}
+
+.contact-phone{
+	width:30%;
+}
+.contact{
+	width:100%;
+	margin-left:90px;
+	margin-top:120px;
+}
+.contact-body{
+	width:20%;
+	margin-left:110px;
+	margin-top: 70px;
+}
+.form{
+	width:100%;
+	height: 700px;
+	background: black;
+}
+.newinput{
+	width: 70%;
+}
+.newinput input{
+	width:100%;
+	padding:12px;
+	margin-bottom:12px;
+	background-color: black;
+	color: white;
+}
+.newinput textarea{
+	width:100%;
+	padding:25px 12px;
+	margin-bottom:12px;
+	background-color: black;
+	color: white;
+}
+.newinput button{
+	width:25%;
+	padding:15px;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border:none;
+}
+.follow{
+	height:100px;
+}
+.brand a{
+	padding:12px;
+	font-size:30px;
+}
+#fb{
+	color: #093a87;
+}
+#twitter{
+	color:#1f88c4;
+}
+.copyright{
+	background: black;
+	color:#e9eaeb;
+	height:100px;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+#github{
+	color:black;
+}
