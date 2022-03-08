@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src='js/jquery.svg3dtagcloud.min.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container-fluid">
@@ -18,7 +19,7 @@
                 <div class="navbar row items-center-x">
                     <div class="col-9">
                         <div class="navbar-header">
-                            <h4>T H E F E Y Z U L L A  E V</h4>
+                            <h4>T H E F E Y Z U L L A E V</h4>
                         </div>
                         
                     </div> 
@@ -27,9 +28,10 @@
                          <ul class="navbar-nav row">
                              <li><a href="#">Home</a></li>
                              <li><a href="#about">About</a></li>
-                             <li><a href="#work">Work</a></li>
-                             <li><a href="#">Contact</a></li>
-                             <li><a href="#">Follow</a></li>
+                             <li><a href="#skills">Skills</a></li>
+                             <li><a href="#contact">Contact</a></li>
+                             <li><a href="#follow">Follow</a></li>
+                             <li><a id="menu"><i class="fa fa-bars"></i></a></li>
                          </ul>
                      </div>
                  </div>
@@ -37,7 +39,7 @@
                 </div>
 
             <div class="headercontain ">
-                <div class="col-6">
+                <div class="col-6 col-m-12">
                     <div class="header row items-center-x   flex-end-y ">
                         <h1>HUSNIA</h1>
                     </div>
@@ -57,7 +59,7 @@
             </div> 
             
         </div>
-        <div class="aboutcontainer row items-center-x" id="about">
+        <div class="aboutcontainer row items-center-x wrapped" id="about">
             <div class="col-6">
                 <div class="aboutleft row items-center-x items-center-y">
                     <ul class="text">
@@ -71,14 +73,14 @@
            
             </div>
 
-            <div class="col-6">
+            <div class="col-6 col-m-12">
                 <div class="aboutright">
                     
                 </div>
             </div>
 
         </div>
-        <div class="aboutcontainer row" id="work">
+        <div class="aboutcontainer row" id="skills">
             <div class="col-6">
                <div class="about3D row items-center-x items-center-y">
                    <div id="holder"></div>
@@ -127,7 +129,7 @@
                     </div>
       
     </div>
-    <div class="aboutcontainer row " style="height:700px">
+    <div class="aboutcontainer row " style="height:700px" id="contact">
         <div class="col-6">
             <div class="contact">
                 <div class="contact-head">
@@ -175,7 +177,7 @@
         </div>
         <div class="col-6">
             <form>
-                <div class="form row items-center-x items-center-y">
+                <div class="form row items-center-x items-center-y" >
                     <div class="newinput">
                         <input placeholder="Name" type="text">
                         <input placeholder="Email"type="email">
@@ -187,7 +189,7 @@
         </div>
 
     </div>
-    <div class="aboutcontainer">
+    <div class="aboutcontainer" id="follow">
         <div class="follow row items-center-x items-center-y">
             <ul class="row brand">
                 <li><a id="github" href="https://github.com/fhusnia"><i class="fa fa-github"></i></a></li>
@@ -205,6 +207,6 @@
  <script src="particles.js"></script>
  <script src="app.js"></script>
  <script src="index.js"></script>
- 
+ <script src="esas.js"></script>
 </body>
 </html>

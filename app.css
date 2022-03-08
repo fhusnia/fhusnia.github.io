@@ -15,10 +15,10 @@ canvas.particles-js-canvas-el{
 	width:100%;
 	height:100vh;
 	background:white;
-	background-image:url('picture/img2.jpg');
+	background-image:url("picture/prof.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center right;
+	background-position:top right;
 }
 .navbar-header h4{
 	color:#e9eaeb;
@@ -31,14 +31,12 @@ canvas.particles-js-canvas-el{
 }
 .navbar{
 	padding:12px;
-	position: fixed;
+	position: sticky;
 	width: 100%;
-	z-index: 999999;
+	z-index: 1;
+	transition:0.2s;
 	top: 0;
-	background: rgba(0, 0, 0, 0.6);
 }
-
-
 .header{
 	width: 100%;
 	height:320px;
@@ -143,7 +141,7 @@ canvas.particles-js-canvas-el{
 .aboutright{
 	width:100%;
 	height:700px;
-	background-image:url("picture/img3.jpg");
+	background-image:url("picture/2.jpg");
 	background-size:cover;
 }
 
@@ -271,4 +269,14 @@ canvas.particles-js-canvas-el{
 }
 #github{
 	color:black;
+}
+.yeninav{
+	background: black;
+	position: fixed;
+	width: 100%;
+
+}
+#menu{
+	font-size:20px;
+	color: white;
 }
